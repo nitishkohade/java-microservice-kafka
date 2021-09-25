@@ -1,0 +1,89 @@
+2021-09-22 08:09:32 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on LAPTOP-71JFSR9N with PID 22736 (D:\development\java project\microservices-demo\twitter-to-kafka\target\classes started by NITISH in D:\development\java project\microservices-demo\twitter-to-kafka)
+2021-09-22 08:09:32 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-22 08:09:33 WARN  [main] o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' available: expected single matching bean but found 2: mockKafkaStreamRunner,twitterKafkaStreamRunner
+2021-09-22 08:09:33 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-22 08:09:33 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a single bean, but 2 were found:
+	- mockKafkaStreamRunner: defined in file [D:\development\java project\microservices-demo\twitter-to-kafka\target\classes\com\microservices\demo\twitter\to\kafka\service\runner\impl\MockKafkaStreamRunner.class]
+	- twitterKafkaStreamRunner: defined in file [D:\development\java project\microservices-demo\twitter-to-kafka\target\classes\com\microservices\demo\twitter\to\kafka\service\runner\impl\TwitterKafkaStreamRunner.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2021-09-22 08:11:25 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on LAPTOP-71JFSR9N with PID 2952 (D:\development\java project\microservices-demo\twitter-to-kafka\target\classes started by NITISH in D:\development\java project\microservices-demo\twitter-to-kafka)
+2021-09-22 08:11:25 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-22 08:11:26 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.34 seconds (JVM running for 2.238)
+2021-09-22 08:11:26 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-09-22 08:11:26 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-09-22 08:11:26 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservices
+2021-09-22 08:11:26 INFO  [main] c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords
+2021-09-22 08:11:26 INFO  [main] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text elit sit dolor sit ipsum consectetuer Lorem Microservices elit elit consectetuer consectetuer amet elit
+2021-09-22 08:11:36 INFO  [main] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text dolor adipiscing elit consectetuer Java amet amet
+2021-09-22 08:17:49 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on LAPTOP-71JFSR9N with PID 16696 (D:\development\java project\microservices-demo\twitter-to-kafka\target\classes started by NITISH in D:\development\java project\microservices-demo\twitter-to-kafka)
+2021-09-22 08:17:49 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-22 08:17:49 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.641 seconds (JVM running for 1.053)
+2021-09-22 08:17:49 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-09-22 08:17:49 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-22 08:17:49 ERROR [main] o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:779)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke "com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData.getTwitterKeywords()" because "this.twitterToKafkaServiceConfigData" is null
+	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:48)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:795)
+	... 5 common frames omitted
+2021-09-22 08:18:48 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on LAPTOP-71JFSR9N with PID 23264 (D:\development\java project\microservices-demo\twitter-to-kafka\target\classes started by NITISH in D:\development\java project\microservices-demo\twitter-to-kafka)
+2021-09-22 08:18:48 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-22 08:18:48 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.642 seconds (JVM running for 1.057)
+2021-09-22 08:18:48 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-09-22 08:18:48 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-09-22 08:18:48 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservices
+2021-09-22 08:18:48 INFO  [main] c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords
+2021-09-22 08:18:49 INFO  [main] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text amet consectetuer sit Java consectetuer ipsum
+2021-09-22 10:52:05 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on LAPTOP-71JFSR9N with PID 28652 (D:\development\java project\microservices-demo\twitter-to-kafka\target\classes started by NITISH in D:\development\java project\microservices-demo\twitter-to-kafka)
+2021-09-22 10:52:05 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-22 10:52:05 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.659 seconds (JVM running for 1.073)
+2021-09-22 10:52:05 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-09-22 10:52:05 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-09-22 10:52:05 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservices
+2021-09-22 10:52:05 INFO  [main] c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords
+2021-09-22 10:52:05 INFO  [main] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Lorem dolor amet elit dolor consectetuer Java sit amet Lorem adipiscing elit
+2021-09-22 10:52:15 INFO  [main] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text purus amet dolor Microservices ipsum Lorem
+2021-09-22 10:52:34 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on LAPTOP-71JFSR9N with PID 23348 (D:\development\java project\microservices-demo\twitter-to-kafka\target\classes started by NITISH in D:\development\java project\microservices-demo\twitter-to-kafka)
+2021-09-22 10:52:34 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-22 10:52:34 WARN  [main] o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.microservices.demo.config.TwitterToKafkaServiceConfigData' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-09-22 10:52:34 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-22 10:52:34 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.demo.config.TwitterToKafkaServiceConfigData' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.demo.config.TwitterToKafkaServiceConfigData' in your configuration.
+

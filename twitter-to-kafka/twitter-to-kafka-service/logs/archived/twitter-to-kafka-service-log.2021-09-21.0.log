@@ -1,0 +1,248 @@
+2021-09-21 12:24:49 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on LAPTOP-71JFSR9N with PID 46348 (D:\development\java project\microservices-demo\twitter-to-kafka\target\classes started by NITISH in D:\development\java project\microservices-demo\twitter-to-kafka)
+2021-09-21 12:24:49 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-21 12:24:49 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.637 seconds (JVM running for 1.05)
+2021-09-21 12:24:49 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-09-21 12:24:49 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-09-21 12:28:55 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on LAPTOP-71JFSR9N with PID 49260 (D:\development\java project\microservices-demo\twitter-to-kafka\target\classes started by NITISH in D:\development\java project\microservices-demo\twitter-to-kafka)
+2021-09-21 12:28:55 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-21 12:28:55 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.642 seconds (JVM running for 1.062)
+2021-09-21 12:28:55 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-09-21 12:28:55 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-09-21 12:28:55 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - null
+2021-09-21 12:30:02 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on LAPTOP-71JFSR9N with PID 9168 (D:\development\java project\microservices-demo\twitter-to-kafka\target\classes started by NITISH in D:\development\java project\microservices-demo\twitter-to-kafka)
+2021-09-21 12:30:02 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-21 12:30:03 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.626 seconds (JVM running for 1.041)
+2021-09-21 12:30:03 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-09-21 12:30:03 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-09-21 12:30:03 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - null
+2021-09-21 12:33:58 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on LAPTOP-71JFSR9N with PID 45236 (D:\development\java project\microservices-demo\twitter-to-kafka\target\classes started by NITISH in D:\development\java project\microservices-demo\twitter-to-kafka)
+2021-09-21 12:33:58 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-21 12:33:58 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.627 seconds (JVM running for 1.038)
+2021-09-21 12:33:58 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-09-21 12:33:58 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-09-21 12:33:58 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservices
+2021-09-21 19:45:12 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on LAPTOP-71JFSR9N with PID 9308 (D:\development\java project\microservices-demo\twitter-to-kafka\target\classes started by NITISH in D:\development\java project\microservices-demo\twitter-to-kafka)
+2021-09-21 19:45:12 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-21 19:45:12 WARN  [main] o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-09-21 19:45:12 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-21 19:45:12 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner' in your configuration.
+
+2021-09-21 19:47:19 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on LAPTOP-71JFSR9N with PID 39892 (D:\development\java project\microservices-demo\twitter-to-kafka\target\classes started by NITISH in D:\development\java project\microservices-demo\twitter-to-kafka)
+2021-09-21 19:47:19 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-21 19:47:19 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.695 seconds (JVM running for 1.151)
+2021-09-21 19:47:19 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-09-21 19:47:19 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-09-21 19:47:19 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservices
+2021-09-21 19:47:20 INFO  [Twitter Stream consumer /  [1][initializing]] twitter4j.TwitterStreamImpl - Establishing connection.
+2021-09-21 19:47:20 INFO  [main] c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-09-21 19:47:22 INFO  [Twitter Stream consumer /  [1][Establishing connection]] twitter4j.TwitterStreamImpl - Connection established.
+2021-09-21 19:47:22 INFO  [Twitter Stream consumer /  [1][Establishing connection]] twitter4j.TwitterStreamImpl - Receiving status stream.
+2021-09-21 19:47:22 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jingTF: ตื่นเต้น น้องเคอจะไปทำอะไรบ้าง แต่งานพรุ่งนี้จะเหมือนเปิดตัวfashion show spring and summer collection ไม่รู้จะมาร่วมงานรูปแบบไห…
+2021-09-21 19:47:23 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @TheKiwishow2: Muy Felíz día de la Primavera!! Les deseo a todas las chicas de TW (especialmente @natashanieb 🌹⚘🌹⚘🌹⚘), y que pasen una h…
+2021-09-21 19:47:25 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @bhadidarg: Bella Hadid para la campaña de Self-Portrait Spring/Summer 2022. https://t.co/zWi6nYkTkw
+2021-09-21 19:47:25 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Alex_Kozora: Rookie minicamp ----> Regular season
+
+Pat Freiermuth stick route. All those reps in the spring/summer paying off. More exp…
+2021-09-21 19:47:28 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Curso gratuito de Introducción Spring 5 WebFlux
+2021-09-21 19:47:28 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Featured Art of the Day: "Spring morning English Village Churc". Buy it at: https://t.co/8YMwoYyxBo https://t.co/ueGm9w5tYW
+2021-09-21 19:47:29 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jingTF: ตื่นเต้น น้องเคอจะไปทำอะไรบ้าง แต่งานพรุ่งนี้จะเหมือนเปิดตัวfashion show spring and summer collection ไม่รู้จะมาร่วมงานรูปแบบไห…
+2021-09-21 19:47:30 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text come get this shmoney
+2021-09-21 19:47:30 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jingTF: ตื่นเต้น น้องเคอจะไปทำอะไรบ้าง แต่งานพรุ่งนี้จะเหมือนเปิดตัวfashion show spring and summer collection ไม่รู้จะมาร่วมงานรูปแบบไห…
+2021-09-21 19:47:30 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @bhadidarg: Bella Hadid para la campaña de Self-Portrait Spring/Summer 2022. https://t.co/6nnk1vAt8W
+2021-09-21 19:47:30 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text I've gained about 3,000 followers since I was a crypto art blogger back in the spring.
+
+Meaning many of you haven't read these interviews. You should! :)
+
+Planning to resurface some of the artist interviews here to raise their profile and the incredible beauty of their works.
+2021-09-21 19:47:31 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Today September 21 is celebrated in my country the day of friendship, spring and love, congratulations to all!❤️💐🌻 https://t.co/p8YiHJBHyh
+2021-09-21 19:47:31 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @FearnFarm Nice looking spring calves🤣😂 #simsarebest
+2021-09-21 19:47:32 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @404neko VS Code其实也带Java工具了，还免费。
+2021-09-21 19:47:32 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @bhadidarg: Bella Hadid para la campaña de Self-Portrait Spring/Summer 2022. https://t.co/KWsd2l3B2O
+2021-09-21 19:47:33 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @kobemurals: Kobe and Mookie Betts mural tribute 
+
+At 686 N Spring St, Los Angeles by brianpetersonart and zaoone https://t.co/DqdlKAnH8G
+2021-09-21 19:47:34 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jingTF: ตื่นเต้น น้องเคอจะไปทำอะไรบ้าง แต่งานพรุ่งนี้จะเหมือนเปิดตัวfashion show spring and summer collection ไม่รู้จะมาร่วมงานรูปแบบไห…
+2021-09-21 19:47:34 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jingTF: ตื่นเต้น น้องเคอจะไปทำอะไรบ้าง แต่งานพรุ่งนี้จะเหมือนเปิดตัวfashion show spring and summer collection ไม่รู้จะมาร่วมงานรูปแบบไห…
+2021-09-21 19:47:34 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @KenDilanianNBC: FBI Director Wray: Since spring 2020, the bureau has more than doubled its domestic terrorism caseload roughly 1,000 to…
+2021-09-21 19:47:35 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jingTF: ตื่นเต้น น้องเคอจะไปทำอะไรบ้าง แต่งานพรุ่งนี้จะเหมือนเปิดตัวfashion show spring and summer collection ไม่รู้จะมาร่วมงานรูปแบบไห…
+2021-09-21 19:47:35 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @bhadidarg: ELLA! Bella Hadid para la campaña de Self-Portrait Spring/Summer 2022. https://t.co/IBN68WwbX1
+2021-09-21 19:47:35 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jingTF: ตื่นเต้น น้องเคอจะไปทำอะไรบ้าง แต่งานพรุ่งนี้จะเหมือนเปิดตัวfashion show spring and summer collection ไม่รู้จะมาร่วมงานรูปแบบไห…
+2021-09-21 19:47:36 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @kittyyoon6 Uf muchas, spring day, forever young, sea.... Etc.. Y cuando escucho no more dream.. Dioss q m emociono! 🥺X todo lo q han logrado
+2021-09-21 19:47:37 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @bhadidarg: Bella Hadid para la campaña de Self-Portrait Spring/Summer 2022. https://t.co/mbl41Lpe6i
+2021-09-21 19:47:37 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jingTF: ตื่นเต้น น้องเคอจะไปทำอะไรบ้าง แต่งานพรุ่งนี้จะเหมือนเปิดตัวfashion show spring and summer collection ไม่รู้จะมาร่วมงานรูปแบบไห…
+2021-09-21 19:47:38 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @bhadidarg: Bella Hadid para la campaña de Self-Portrait Spring/Summer 2022. https://t.co/zWi6nYkTkw
+2021-09-21 19:47:39 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Sunny Spring, ! https://t.co/KzYHMzbv7A
+2021-09-21 19:47:39 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text まあ・・・確かに、Javaに対する当時の愛があったからこそ、下手くそでエビデンスが全くなくても書いた、そんな気持ちもあるんだよな
+
+当時は、本当に憧れの言語だったもの
+あれだけのリソースをフリーで作ってしかも扱いやすいなんて、すごいって感動しきりだった・・・
+
+思い出補正って本当すごいね
+2021-09-21 19:47:39 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @KenDilanianNBC: FBI Director Wray: Since spring 2020, the bureau has more than doubled its domestic terrorism caseload roughly 1,000 to…
+2021-09-21 19:47:40 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @bhadidarg: Bella Hadid para la campaña de Self-Portrait Spring/Summer 2022. https://t.co/8nvNFrUQzR
+2021-09-21 19:47:41 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @iamsurada1: personal color เปลี่ยนชีวิตแบบมากจริงๆ เมื่อก่อนคิดว่าตัวเองเป็นสาว Autumm พอได้ไปดูคือสาว Spring ค่ะตรงข้ามเว่อร์ ตอนนี้เป…
+2021-09-21 19:47:41 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @bhadidarg: Bella Hadid para la campaña de Self-Portrait Spring/Summer 2022. https://t.co/6nnk1vAt8W
+2021-09-21 19:47:42 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jingTF: ตื่นเต้น น้องเคอจะไปทำอะไรบ้าง แต่งานพรุ่งนี้จะเหมือนเปิดตัวfashion show spring and summer collection ไม่รู้จะมาร่วมงานรูปแบบไห…
+2021-09-21 19:47:43 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Read Building Java Programs and gulp down some green juice out of a irish coffee glass.
+2021-09-21 19:47:43 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @WestWingWriters: Writers can have a little deadline extension, as a treat... our PAID (3k/mo) winter/spring internship application is n…
+2021-09-21 19:47:43 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @bhadidarg: Bella Hadid para la campaña de Self-Portrait Spring/Summer 2022. https://t.co/KWsd2l3B2O
+2021-09-21 19:47:43 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Daily fight for Democracy!
+#GlobalArmsEmbargo 
+#WhatsHappeningInMyanmar
+#Sep20Coup https://t.co/XnAHPckZHa
+2021-09-21 19:47:43 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @mankai_movie: 🌸［春組］〜SPRING〜🌸
+
+異国からの留学生役者🕌
+￣￣￣￣￣￣￣￣￣￣￣
+
+𓂃 𓈒𓏸◌
+シトロン 
+              #古谷大和 
+                            𓂃 𓈒𓏸
+
+@ya_ma_to_hir…
+2021-09-21 19:47:44 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @bhadidarg: Bella Hadid para la campaña de Self-Portrait Spring/Summer 2022. https://t.co/j5ja8xOqvu
+2021-09-21 19:47:46 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @bhadidarg: Bella Hadid para la campaña de Self-Portrait Spring/Summer 2022. https://t.co/hqfnQ27DdV
+2021-09-21 19:47:46 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @programmerjoke9: What's unit testing? https://t.co/TkQLlSUAKJ #100Daysofcode #javascript #programming #dev #linux #java #programming #C…
+2021-09-21 19:47:47 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @ZhangYiFan_TH: 210921 FENDI’s Weibo update
+
+พบกับ FENDI 2022 Spring & Summer Women's Fashion Show พรุ่งนี้เวลา 18:45น. ร่วมชมโชว์กับโจว…
+2021-09-21 19:47:48 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jingTF: ตื่นเต้น น้องเคอจะไปทำอะไรบ้าง แต่งานพรุ่งนี้จะเหมือนเปิดตัวfashion show spring and summer collection ไม่รู้จะมาร่วมงานรูปแบบไห…
+2021-09-21 19:47:48 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jingTF: ตื่นเต้น น้องเคอจะไปทำอะไรบ้าง แต่งานพรุ่งนี้จะเหมือนเปิดตัวfashion show spring and summer collection ไม่รู้จะมาร่วมงานรูปแบบไห…
+2021-09-21 19:47:48 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Wood Path in Spring https://t.co/qNwqULnPtV #bogdanovbelsky #realism https://t.co/91yof6hG4G
+2021-09-21 19:47:49 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jingTF: ตื่นเต้น น้องเคอจะไปทำอะไรบ้าง แต่งานพรุ่งนี้จะเหมือนเปิดตัวfashion show spring and summer collection ไม่รู้จะมาร่วมงานรูปแบบไห…
+2021-09-21 19:47:49 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @programmerjoke9: What's unit testing? https://t.co/TkQLlSUAKJ #100Daysofcode #javascript #programming #dev #linux #java #programming #C…
+2021-09-21 19:47:50 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @KenDilanianNBC: FBI Director Wray: Since spring 2020, the bureau has more than doubled its domestic terrorism caseload roughly 1,000 to…
+2021-09-21 19:47:50 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @programmerjoke9: What's unit testing? https://t.co/TkQLlSUAKJ #100Daysofcode #javascript #programming #dev #linux #java #programming #C…
+2021-09-21 19:47:51 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @romessaaa @your_hubby_ @ebad_ullah99 @kya_bolon_ab Jado da takkeya tenu🧐
+Hosh na kuch vi menu😣
+Kitte bhi chain ni milda😵
+Ni kar kuch mere dil da❤️👈🏻
+Main java kede passe🥺
+Maar gaye tere hasse😚
+Ni naina naal pila de🤥
+Sanu maar muka ke🥵
+Tu door jaavi na😟
+Mukhda lukavi na😫
+Jalwa tera uff e Khuda😱
+Das mainu ki main kra😩
+2021-09-21 19:47:52 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jingTF: ตื่นเต้น น้องเคอจะไปทำอะไรบ้าง แต่งานพรุ่งนี้จะเหมือนเปิดตัวfashion show spring and summer collection ไม่รู้จะมาร่วมงานรูปแบบไห…
+2021-09-21 19:47:52 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jingTF: ตื่นเต้น น้องเคอจะไปทำอะไรบ้าง แต่งานพรุ่งนี้จะเหมือนเปิดตัวfashion show spring and summer collection ไม่รู้จะมาร่วมงานรูปแบบไห…
+2021-09-21 19:47:53 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Sharon Wauchob - Spring 2022 Ready-to-Wear
+https://t.co/pqLgZkWKHo https://t.co/xJhIkeGSxf
+2021-09-21 19:47:53 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jingTF: ตื่นเต้น น้องเคอจะไปทำอะไรบ้าง แต่งานพรุ่งนี้จะเหมือนเปิดตัวfashion show spring and summer collection ไม่รู้จะมาร่วมงานรูปแบบไห…
+2021-09-21 19:47:54 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Personal art 🌼 Happy spring! 🌸 https://t.co/1owYU2QKTU
+2021-09-21 19:47:54 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @abc13houston: The Lone Star state's reported number of deaths as of Sept.15 is equivalent to the number of people who live in Spring.…
+2021-09-21 19:49:45 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on LAPTOP-71JFSR9N with PID 34488 (D:\development\java project\microservices-demo\twitter-to-kafka\target\classes started by NITISH in D:\development\java project\microservices-demo\twitter-to-kafka)
+2021-09-21 19:49:45 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-21 19:49:45 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.638 seconds (JVM running for 1.063)
+2021-09-21 19:49:45 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-09-21 19:49:45 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-09-21 19:49:45 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservices
+2021-09-21 19:49:45 INFO  [Twitter Stream consumer /  [1][initializing]] twitter4j.TwitterStreamImpl - Establishing connection.
+2021-09-21 19:49:45 INFO  [main] c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-09-21 19:49:47 INFO  [Twitter Stream consumer /  [1][Establishing connection]] twitter4j.TwitterStreamImpl - Connection established.
+2021-09-21 19:49:47 INFO  [Twitter Stream consumer /  [1][Establishing connection]] twitter4j.TwitterStreamImpl - Receiving status stream.
+2021-09-21 19:49:47 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @devisridhar: Love that the Spectator trashes my book before it’s even out.😆 Their gossip columnist seems to have developed an unhealthy…
+2021-09-21 19:49:50 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @PocochanMH やったね🥳
+Java版も統合版も持ってるからどっちでもOKよ😄
+2021-09-21 19:49:50 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text I told some friends I’d be moving last spring/early summer but I most likely wouldn’t tell people I was moving until I moved and that’s literally what’s about to happen/ is happening lmfao
+2021-09-21 19:49:52 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text all the thoughts keep coming in and even the... earthly desires.
+
+she went to the hot spring first— waiting for her husband. 
+
+then suddenly sasuke was walking towards her and naked of course!
+
+she can't talk or even concentrate! the things that had happened last night keeps
+2021-09-21 19:49:52 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @ValentinaaAcuna Uh mal es verdad, aguante la 🌺spring season🌺
+2021-09-21 19:49:52 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @bibryam: new post: Distributed transaction patterns for #microservices compared
+ https://t.co/54SBFoAt6x  @rhdevelopers https://t.co/wj…
+2021-09-21 19:49:53 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jingTF: ตื่นเต้น น้องเคอจะไปทำอะไรบ้าง แต่งานพรุ่งนี้จะเหมือนเปิดตัวfashion show spring and summer collection ไม่รู้จะมาร่วมงานรูปแบบไห…
+2021-09-21 19:49:53 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @pinky_chinki: “If we had no winter, the spring would not be so pleasant: if we did not sometimes taste of adversity, prosperity would n…
+2021-09-21 19:49:53 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jingTF: ตื่นเต้น น้องเคอจะไปทำอะไรบ้าง แต่งานพรุ่งนี้จะเหมือนเปิดตัวfashion show spring and summer collection ไม่รู้จะมาร่วมงานรูปแบบไห…
+2021-09-21 19:49:53 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text It's true. Love living somewhere with four seasons.
+2021-09-21 19:49:54 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text A Lively Spring Storm ♡︎ https://t.co/Zh9Rs8hu4A
+2021-09-21 19:49:54 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text https://t.co/i4BtWuatbl
+#Java
+2021-09-21 19:49:55 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @milliethinker: happy spring! https://t.co/PlAeZHbluB
+2021-09-21 19:49:56 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Let’s just skip to spring break 😂
+2021-09-21 19:49:57 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @knowprogram: 8 Things Every Programming Should Know 🖥️
+
+👉Retweet to share information🌐
+#computer #webdevelopment #programmer #webdesign…
+2021-09-21 19:49:59 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @pinky_chinki: “If we had no winter, the spring would not be so pleasant: if we did not sometimes taste of adversity, prosperity would n…
+2021-09-21 19:50:01 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @BassProScotland @koivkoivkoiv https://t.co/qqI2TA5PiE
+2021-09-21 19:50:02 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Spring day,we're bulletproof the eternal
+2021-09-21 19:50:04 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text I think I wanna buy a bike next spring/summer so I won’t have to go to the gym on cardio days .
+2021-09-21 19:50:06 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text New to Market. Silver Spring Under $600K at 3228 Birchtree Ln click for photos https://t.co/GJk8WSBTTP #strathmoreatbelpre #strathmoreatbelpresilverspring #realestate
+2021-09-21 19:50:07 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text How effectively are you using APIs to open new revenue streams and improve your customer experience? Learn how your progress compares with your peers’ in this quick online assessment. Start the assessment here: https://t.co/IiPTjn5vXB
+
+#Integration #APIManagement #Microservices https://t.co/CNbJUtrymv
+2021-09-21 19:50:07 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ランキング:16位 (車、バイク、自転車)
+
+Jackery ポータブル電源 1000 大容量 278400mAh/1002Wh 蓄電池 家庭用 発電機 車中泊 キャ......(23:20)
+
+https://t.co/RnXS4rhKUe
+2021-09-21 19:50:07 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ランキング:42位「大型家電」(23:20)
+
+東芝 冷蔵庫(幅60㎝) 326L GR-S33SC-WT 【Ag+低温触媒】 【うるおいラップ
+
+価格:￥106,321 - ￥222,168
+レビュー数:54
+https://t.co/GRY6a8nvu5
+2021-09-21 19:50:09 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Sape
+2021-09-21 19:50:09 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @Tbay83 @jorgje @AlexanderNL Zoals ik zei, je gaat nergens inhoudelijk op in en zodra je onzin als onzin ontmaskerd wordt, spring je weer door naar je volgende "argument". Tim.
+
+Cijfers liegen niet! Dus kom maar door met cijfers.
+2021-09-21 19:50:10 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jingTF: ตื่นเต้น น้องเคอจะไปทำอะไรบ้าง แต่งานพรุ่งนี้จะเหมือนเปิดตัวfashion show spring and summer collection ไม่รู้จะมาร่วมงานรูปแบบไห…
+2021-09-21 19:50:17 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on LAPTOP-71JFSR9N with PID 388 (D:\development\java project\microservices-demo\twitter-to-kafka\target\classes started by NITISH in D:\development\java project\microservices-demo\twitter-to-kafka)
+2021-09-21 19:50:17 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-21 19:50:17 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.635 seconds (JVM running for 1.07)
+2021-09-21 19:50:17 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-09-21 19:50:17 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-09-21 19:50:17 INFO  [main] c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservices
+2021-09-21 19:50:18 INFO  [Twitter Stream consumer /  [1][initializing]] twitter4j.TwitterStreamImpl - Establishing connection.
+2021-09-21 19:50:18 INFO  [main] c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-09-21 19:50:20 INFO  [Twitter Stream consumer /  [1][Establishing connection]] twitter4j.TwitterStreamImpl - Connection established.
+2021-09-21 19:50:20 INFO  [Twitter Stream consumer /  [1][Establishing connection]] twitter4j.TwitterStreamImpl - Receiving status stream.
+2021-09-21 19:50:20 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @IrynaKhymych: Persephone - the goddess of spring 🌿. Inspired by the wonderful webcomic by @used_bandaid. Painted under the mentorship o…
+2021-09-21 19:50:22 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text พร้อมส่งนะคะ☺️💖 #ตลาดนัดบพ #ตลาดนัดblackpink
+2021-09-21 19:50:23 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jingTF: ตื่นเต้น น้องเคอจะไปทำอะไรบ้าง แต่งานพรุ่งนี้จะเหมือนเปิดตัวfashion show spring and summer collection ไม่รู้จะมาร่วมงานรูปแบบไห…
+2021-09-21 19:50:23 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Pastoral transition periods in the UMC are garbage. It would help if we moved Charge Conference to the spring, and treated it as a Lenten act of worship.
+2021-09-21 19:50:24 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @wasavisawa I'm not sure if it was this, but yesterday the moon was very bright and yellow, very beautiful 🌕
+
+But for me it is not autumn, it is the "spring moon" 😅 
+
+おやすみなさい、先生
+2021-09-21 19:50:24 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jingTF: ตื่นเต้น น้องเคอจะไปทำอะไรบ้าง แต่งานพรุ่งนี้จะเหมือนเปิดตัวfashion show spring and summer collection ไม่รู้จะมาร่วมงานรูปแบบไห…
+2021-09-21 19:50:24 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @CharlieCrist: Ever since I was a kid, I’ve enjoyed spending quality time on the water!
+
+Chip in any amount for the chance to join me on…
+2021-09-21 19:50:24 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jingTF: ตื่นเต้น น้องเคอจะไปทำอะไรบ้าง แต่งานพรุ่งนี้จะเหมือนเปิดตัวfashion show spring and summer collection ไม่รู้จะมาร่วมงานรูปแบบไห…
+2021-09-21 19:50:26 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @BTSxCENT: 🧈👅 Nova 104.9 FM
+
+Vamos então para a primeira meta?
+Uma meta bem pequena de início
+
+💬80 Pedidos
+🔄10 RTs
+
+Oie, @Novafm_104! Go…
+2021-09-21 19:50:26 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text “Im constantly trying to communicate something incommunicable , to explain something inexplicable, to tell about something I only feel in my bones and which can only be experienced in those bones.”
+~Franz Kafka
+2021-09-21 19:50:29 INFO  [Twitter4J Async Dispatcher[0]] c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @astro_kimbrough: Can you find Grand Prismatic Spring in this pic?  The 300-foot wide hot spring has its famous rainbow-colored edges. A…
